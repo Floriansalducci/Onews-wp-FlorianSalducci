@@ -1,15 +1,15 @@
 
 # BEGIN WordPress
 # Les directives (lignes) entre 'BEGIN WordPress' et 'END WordPress' sont
-# générées dynamiquement et ne doivent uniquement être modifiées via les filtres WordPress.
-# Toute modification des directives entre ces marqueurs sera écrasée.
+# généré dynamiquement, et ne doivent uniquement être modifiées via les filtres WordPress.
+# Toute modification des directives entre ces marqueurs sera outrepassée.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /dungeons/s08/wordpress/
+RewriteBase /onews-wp/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /dungeons/s08/wordpress/index.php [L]
+RewriteRule . /onews-wp/index.php [L]
 </IfModule>
 
 # END WordPress

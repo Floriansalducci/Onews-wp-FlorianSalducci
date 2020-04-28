@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'frI=yllzy] yCl:aC T&*_ynd Mx!rJWq6(IqVjX>p9.8en=?pNI8ToI|h>sdEck' );
-define( 'SECURE_AUTH_KEY',  '6xoT55-M+n`fbG_X|@#9&.*WXzgr:+O<S D*&OA7 ;~+BL3RWy.bnaq.`7Lj|oeP' );
-define( 'LOGGED_IN_KEY',    '`$~7R:w]%Kw~k $o33/ a$~`nxHfhTYyLb(@uQFx2dJ]{)jO7 A_Cg?|rg@B6I#0' );
-define( 'NONCE_KEY',        'zl55<dQ+DioM+}L:B*+rISwYxT@J:7kr_P^40,/_`3H99<)NXRqz~x60qA}C&RVh' );
-define( 'AUTH_SALT',        '8+iD.xf,Tb $~V;Q68!6*r7wbv)?PwT{z^CzH/A2mT*${q2^D3od)3lyG,$E.yM*' );
-define( 'SECURE_AUTH_SALT', '9iMBO!D=3kVNSdU;09s,p9cn$QngmRc 6*g$_tT0!J|Xp=~!]PtgKiJ^A:%00MdY' );
-define( 'LOGGED_IN_SALT',   'jZnywFy*pzXk}p:DHX+LO9rYxw^&b(s,b==AnqpH%P3^%`FL|*@mZDSM,?n|8/++' );
-define( 'NONCE_SALT',       'qSDGz}J>>2M|HS)mK]uY%-xmbk!*9plQSJh2;dJ@7{@+RS5C@y}M%%`J*8oMe[{N' );
+define( 'AUTH_KEY',         'K9F$lxGyBm =Bz;<3W!*cU}8XJK!/k%|Vf^G CGp|GW3E5l+}p~(;uQfiH)P=zay' );
+define( 'SECURE_AUTH_KEY',  '15T>}X[}bu4dKDL`R8.GAkWtCy;`af(vGG@SfGmF=n,WwGJ;N/Bm$-SJ9V@BO)Vn' );
+define( 'LOGGED_IN_KEY',    'am.V8L,2u*M!J)qNd<!&U7>-%Oy%h)l@-v)QAl}HH$(zql>Gz=e5Y|n5u,::St@(' );
+define( 'NONCE_KEY',        '1h=wJ0z*ofJXxT6&.^D_E<DE3nH2_!%r&:+Um#v=61MP@x.amrZ{F4}w@A!-zM<g' );
+define( 'AUTH_SALT',        't/UBi|0v)n}Qb>*t?Z/w]l3JAgnVz1#*G}F(aA:6{B^V+e?AI+kYT>bsO5V.L~|}' );
+define( 'SECURE_AUTH_SALT', 'hEh%/$g]h/$SAin/Aj@)V9Z(EGZtBA1h)[}sOz @GONcIyn9lR6|47b[J^1HNO6!' );
+define( 'LOGGED_IN_SALT',   '+Djh8Wk|f*Bq e6-#|;`w/w<v1&he1w,jzx[~2omNp dBDzwxV,f>2`r4Pjo*Pon' );
+define( 'NONCE_SALT',       'CUQV{p#n`1AS?H+hJX:87|^xxDt&*cDG>j4^Iw5on*a{ksXm[|y,diceaO%KR3S-' );
 /**#@-*/
 
 /**
@@ -66,7 +66,7 @@ define( 'NONCE_SALT',       'qSDGz}J>>2M|HS)mK]uY%-xmbk!*9plQSJh2;dJ@7{@+RS5C@y}
  * si vous leur donnez chacune un préfixe unique.
  * N’utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés !
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wp_demo';
 
 /**
  * Pour les développeurs : le mode déboguage de WordPress.
@@ -82,13 +82,7 @@ $table_prefix = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', true);
-
-
-//pour activer le téléchargement direct (et non par FTP) des fichiers
-//ajouté par moi-même
-define('FS_METHOD', 'direct');
-
+define('WP_DEBUG', false);
 
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
 
