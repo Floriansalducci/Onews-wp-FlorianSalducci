@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 
 //appelée pour mettre en place des setups de notre thème
